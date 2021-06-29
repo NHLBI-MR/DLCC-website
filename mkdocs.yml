@@ -1,6 +1,6 @@
 site_name: Deep Learning Crash Course
 site_url: https://www.deeplearningcrashcourse.org/
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_url: https://github.com/NHLBI-MR/DLCC-website
 repo_name: DLCC
 
 site_description: Homepage for DLCC course

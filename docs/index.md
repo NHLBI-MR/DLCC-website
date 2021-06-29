@@ -37,10 +37,9 @@ Some good materials for mathematics and python programming:
 These materials contain sufficient information to understand and apply deep learning. After reviewing them, you will be prepared to start this journal.
 
 ## Course content
+<img align="center" width="640" height="480" src="images/course_word_plot.png">
 
-<img align="center" width="480" height="320" src="images/course_word_plot.png">
-
-Neural Network basics, backprop, optimization, setup and monitor your training, convolution neural network, recurrent neural network, transformer, attention mechanism, generative adversarial network, adversarial attacking, visualization of neural network, 
+Neural Network basics, backprop, optimization, loss function, setup and monitor your training, convolution neural network, recurrent neural network, transformer, attention mechanism, generative adversarial network, adversarial attacking, visualization of neural network, 
 transfer learning, meta learning, contrastive learning, data management, experiment management, etc.
 
 ## Who will teach
