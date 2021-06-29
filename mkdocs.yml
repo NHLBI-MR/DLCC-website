@@ -1,0 +1,30 @@
+site_name: Deep Learning Crash Course
+site_url: https://www.deeplearningcrashcourse.org/
+repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: DLCC
+
+site_description: Homepage for DLCC course
+site_author: Hui Xue
+
+nav:
+    - Home: index.md
+    - 'Offerings':
+      - NHLBI 2021: nhlbi2021.md
+      - FAES 2021: faes2021.md
+    - About: about.md
+
+theme:
+  name: material
+  palette:
+    primary: red
+  favicon: images/favicon.png 
+  logo: images/logo.png
+  font: true
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.superfences
+
+plugins:
+  - search
