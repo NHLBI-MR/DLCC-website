@@ -27,6 +27,7 @@ Please review the mathematics for deep learning and learn basic Python and Numpy
 * [Python](https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf)
 * [Numpy](https://cs231n.github.io/python-numpy-tutorial/)
 * [Pytorch tutorial](https://pytorch.org/tutorials/)
+* [Debug python program using VSCode](https://www.youtube.com/watch?v=W--_EOzdTHk)
 
 ## Instructors
 
@@ -50,7 +51,7 @@ Starting on the week of Sep 13, 2021
 ![L0 Intro](images/lectures/L0.png)
 
 **Why do we want to spend hours in learning deep learning (DL)?** 
-I can articulate one big reason: Deep Learning is a set of key technique which can be applied to many different fields, from mobile phone to medical imaging, from robotics to online shopping, from new drug discovery to genomics. What is really amazing to me is that in this wave of technological revolution, the **same** set of technique, deep neural network, is solving many challenging problems which are drastically different. Yes, it is the same set of algorithms, software toolboxes and knowledge base are applied, reporting state-of-the-art performance.
+I can articulate one reason: Deep Learning is a set of key technique which can be applied to many different fields, from mobile phone to medical imaging, from robotics to online shopping, from new drug discovery to genomics. What is really amazing to me is that in this wave of technological revolution, the **same** set of technique, deep neural network, is solving many challenging problems which are drastically different. Yes, it is the same set of algorithms, software toolboxes and knowledge base are applied, reporting state-of-the-art performance.
 
 This makes learning deep learning rewardable, because you will master something which can be widely applied and mostly likely will stay that way in the decades to come. According to ARK's research, deep learning will add $30 trillion to the global equity market capitalization during the next 15-20 years*. No something which should be ignored!
 
@@ -129,6 +130,7 @@ We will not review GPU devices for deep learning in lectures. Please review two 
 #### Suggested Reading
 
 * [How backprop works](http://neuralnetworksanddeeplearning.com/chap2.html)
+* [Derivatives of tensor](http://cs231n.stanford.edu/handouts/derivatives.pdf)
 * [Autograd in Pytorch](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 * [GPU in Pytorch](https://www.run.ai/guides/gpu-deep-learning/pytorch-gpu/)
 * [GPU for deep learning](https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/)
@@ -178,14 +180,13 @@ This lecture continues our discussion on training setup, with focus on handling 
 * [Data pre-processing](https://serokell.io/blog/data-preprocessing)
 * [Data transformation in TorchVision](https://pytorch.org/vision/stable/transforms.html)
 * [Checklist to debug NN](https://towardsdatascience.com/checklist-for-debugging-neural-networks-d8b2a9434f21)
-* [Debug python program using VSCode](https://www.youtube.com/watch?v=W--_EOzdTHk)
 
 ___
 ### **Lecture 6**
 
 ![L6 Intro](images/lectures/L6.png)
 
-This lecture starts the convolutional neural network (CNN) by introducing the convolution operation and its application on image. Different variants of convolution is discussed, including stride, transpose, dilated CONV, 1D and 3D CONV, padding, and pooling. Image interpolation layer is introduced with other methods to up/downsample images. The batch normalization is introduced in this lecture, with its variants. Two CNN architectures are analyzed, LeNet-5 and AlexNet, in the history of ImageNet challenge.
+This lecture starts the convolutional neural network (CNN) by introducing the convolution operation and its application on image. Different variants of convolution is discussed, including stride, transpose, dilated CONV, 1D and 3D CONV, padding, and pooling. Image interpolation layer is introduced with other methods to up/downsample images. The batch normalization is discussed with other feature normalization methods. Two CNN architectures are analyzed, LeNet-5 and AlexNet, in the history of ImageNet challenge.
 
 #### Video
 
@@ -197,6 +198,156 @@ This lecture starts the convolutional neural network (CNN) by introducing the co
 
 #### Suggested Reading
 
+* [CONV and its variants](https://arxiv.org/pdf/1603.07285.pdf)
+* [Introduction for batch norm, layer norm, group norm etc.](./Normalization Techniques in Deep Neural Networks _ by Aakash Bindal _ Techspace _ Medium.pdf)
+* [Overview of NN feature normalization](https://arxiv.org/pdf/2009.12836.pdf)
+* [ImageNet Winning CNN Architectures](https://www.kaggle.com/getting-started/149448)
+
+___
+### **Lecture 7**
+
+![L7 Intro](images/lectures/L7.png)
+
+With the basics of CONV and CNN introduced in last lecture, we continue to go through the history of ImageNet competition and reviewed winning architectures until 2017 and go beyond for very latest developments, including ResNet and its variants, group convolution, mobile net, efficient net. We can learn key ideas to design and refine the CNN architectures. The second part of this lecture discusses applications of CNN, including two-stage and one-stage object detection, landmark detection, U-net for segmentation, denoising CNN and super-resolution CNN. 
+
+Network compression is not discussed in the lecture. But you are encouraged to read more on this topic.
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download]()
+
+#### Suggested Reading
+
+* [ResNet paper](https://arxiv.org/abs/1512.03385)
+* [ResNet with batch norm](https://arxiv.org/abs/1603.05027)
+* [Introduction for batch norm, layer norm, group norm etc.](./Normalization Techniques in Deep Neural Networks _ by Aakash Bindal _ Techspace _ Medium.pdf)
+* [Mobile, shuffle, effnet](https://towardsdatascience.com/3-small-but-powerful-convolutional-networks-27ef86faa42d)
+* [One-stage object detector](https://www.jeremyjordan.me/object-detection-one-stage/)
+* [ResUnet](https://arxiv.org/pdf/1711.10684.pdf)
+* [Intro for network compression](https://towardsdatascience.com/how-to-compress-a-neural-network-427e8dddcc34)
+
+___
+### **Lecture 8**
+
+![L8 Intro](images/lectures/L8.png)
+
+We start the discussion of recurrent neural network (RNN) in this lecture. The vanilla RNN is introduced, with two variants: multi-level RNN and bidirectional RNN. To overcome the vanishing gradient, long-short term memory (LSTM) and gated recurrent unit (GRU) modules are introduced. This lecture also introduce word embedding and sequence pre-processing techniques. The final discussion is on temporal convolution network with dilated CONV to process sequence data.
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download]()
+
+#### Suggested Reading
+
+* [RNN chapter](https://www.deeplearningbook.org/contents/rnn.html)
+* [LSTM and GRU](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+___
+### **Lecture 9**
+
+![L9 Intro](images/lectures/L9.png)
+
+This lecture is an exciting one to introduce the attention mechanism and latest transformer based models which had demonstrated great success in natural language processing applications and showing promising the computer vision tasks. The discussion starts by introducing the self-attention and transformer module in details and extend to seq-to-seq model. The BERT and GTP-2/3 architectures are reviewed with details for training and inference. The lecture ends with reviewing application of transformer to computer vision tasks.
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download]()
+
+#### Suggested Reading
+
+* [Attention and transformer](http://peterbloem.nl/blog/transformers)
+* [Attention is all your need](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+* [GPT as a few shot learner](https://arxiv.org/abs/2005.14165)
+* [Vision transformer](https://ai.googleblog.com/2020/12/transformers-for-image-recognition-at.html)
+* [GPT playground](https://app.inferkit.com/demo)
+
+___
+### **Lecture 10**
+
+![L10 Intro](images/lectures/L10.png)
+
+So far we had discussed discriminative models which learn the decision boundary to make prediction. In this lecture, we start to discuss the generative model which learns the data distribution and allows to sample from that distribution. We start by discussing the differences and links between generative and discriminative models. Then the G/D design of generative adversarial model is introduced. The GAN loss is analyzed in detail and its optimal solution is derived. Examples are presented for the significant progress in GAN framework. We further extend the discussion to conditional GAN and CycleGAN to review its flexibility. The lecture is concluded by presenting an usecase utilizing the CycleGAN with segmentation consistency for medical imaging application.
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download]()
+
+#### Suggested Reading
+
+* [GAN paper](https://arxiv.org/abs/1406.2661)
+* [GAN talk](https://www.youtube.com/watch?v=HGYYEUSm-0Q)
+* [Conditional GAN](https://arxiv.org/abs/1611.07004)
+* [Cycle GAN](https://arxiv.org/abs/1703.10593)
+
+___
+### **Lecture 11**
+
+![L11 Intro](images/lectures/L11.png)
+
+This lecture discusses two related topics in deep learning: adversarial examples and deep NN visualization. Shortly after the take-off of deep NN in 2021, people found these models can be fooled by images looking normal to human eyes, while models will misclassified them with very high confidence. These examples are called adversarial examples. The cause for this phenomenon is discussed in the lecture with methods to generate adversarial examples and how to defend it. Understanding what models learned can help, which leads to techniques for model visualization. In the second part of lecture, different model visualization methods are reviewed, including occlusion, saliency maps, Grad-CAM and guided backprop.
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download]()
+
+#### Suggested Reading
+
+* [Adversarial examples](https://arxiv.org/abs/1412.6572)
+* [Adversarial machine learning](https://www.youtube.com/watch?v=sucqskXRkss)
+* [Visualization of deep NN](https://arxiv.org/abs/1311.2901)
+* [Grad Cam](https://arxiv.org/abs/1610.02391)
+
+___
+### **Lecture 12**
+
+![L12 Intro](images/lectures/L12.png)
+
+Deep learning works great if we have large amount of clean, diverse and labelled data. What if we only have a small amount of labelled data or a lot of data without labelling? This lecture introduces some techniques for these more realistic scenario, including transfer learning, meta learning and contrastive learning. The algorithms and utilities of these methods are discussed with real-world examples. The contrastive learning, as the latest development in self-supervised learning, is of particular interests to enable the usage of large unlabeled data. The lecture introduces SimCLR and MoCo algorithms and discusses the contrastive learning as the backbone for multi-modality usecases.
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download]()
+
+#### Suggested Reading
+
+* [Self-supervised learning](https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence)
+* [Learn to learn, Lil'Log](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
+* [Self-Supervised Representation Learning, Lil'Log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html)
+* [MAML](https://arxiv.org/abs/1703.03400)
+* [SimCLR, a fun paper to read](https://arxiv.org/abs/2002.05709)
+* [SimCLR v2](https://www.youtube.com/watch?v=2lkUNDZld-4&t=34s)
+
+___
 ### **Closing remarks**
 
+![L13 Intro](images/lectures/closing_remarks.png)
+
+During this course, we learned many deep learning models and algorithms, and gained mindsets to work with DL. In this closing remark, we step back to take a bird-eye view of what we had learned. The big picture is DL is becoming an essential technology to create substantial value to the society for the decade to come. To achieve this potential, the machine learning system and effective development/deployment iteration are more important, leading to the rise of MLOps. As domain experts, adding DL to your expertise is a good way to get started. For many of us, it may be the only feasible way. So some more resources are provided for continuous learning. 
+
+#### Suggested Reading
 * An insightful post for future of AI society [Moore's Law for Everything](https://moores.samaltman.com)

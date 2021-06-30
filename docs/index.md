@@ -16,11 +16,11 @@ Deep learning is emerging as a major disruptive technology in biomedical and cli
 
 There are a few very good deep learning courses (e.g. [Stanford CS230](https://cs230.stanford.edu/), [Stanford CS231n](http://cs231n.stanford.edu/), [CMU Into to DL](https://deeplearning.cs.cmu.edu/F21/index.html) etc.). But for the general audiences, the related costs are high and seats are limited. 
 
-There are strong interests in the community where I am working ([NHLBI, NIH](https://www.nhlbi.nih.gov/))for deep learning. Many trainees and colleagues want to apply this body of great technique to their special fields, from biology to microscopy, from clinical imaging to epidemiology. As the deep learning has not yet penetrate these fields, it is of great interests to expect breakthrough by applying deep learning to new problems, with creativity.
+There are strong interests in the community where I am working (such as, [NHLBI, NIH](https://www.nhlbi.nih.gov/)) for deep learning. Many trainees and colleagues want to apply this technique, from biology to microscopy, from clinical imaging to epidemiology. As the deep learning has not yet penetrated these fields, it is of great interest to expect breakthroughs by applying deep learning there.
 
 This course is designed for domain experts to provide in-depth review of deep learning technique. The expected outcome is that one can start apply DL to his/her unique problems after completion of course materials and assignments.
 
-As advocated in this [great post](https://medium.datadriveninvestor.com/ai-x-dont-switch-careers-add-ai-34eff21dd3e1), let the study begin and add deep learning to your expertise!
+As advocated in this [great post](https://medium.datadriveninvestor.com/ai-x-dont-switch-careers-add-ai-34eff21dd3e1), add deep learning to your expertise!
 
 ## Who is this course for
 
