@@ -88,8 +88,10 @@ We start by motivating the deep learning for its broad applicability and future 
 
 #### Suggested Reading
 
-* [Deep learning, Nature volume 521, 436–444 (2015)](https://www.nature.com/articles/nature14539.pdf)
+The same three authors wrote these two papers at the beginning of DL revolution and now. It is interesting to read and compare them.
 
+* [Deep learning, Nature volume 521, 436–444 (2015)](https://www.nature.com/articles/nature14539.pdf)
+* [Deep learning for all](https://dl.acm.org/doi/pdf/10.1145/3448250)
 ___
 ### **Lecture 2**
 
@@ -109,7 +111,7 @@ This lecture introduces the concept of loss function to evaluate how well our mo
 
 * [Notes on optimization](https://cs231n.github.io/optimization-1/)
 * [Loss functions in deep learning by Artem Oppermann](./Loss Functions in Deep Learning _ MLearning.ai.pdf)
-
+* [Bias and variance](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update)
 ___
 ### **Lecture 3**
 
@@ -199,6 +201,7 @@ This lecture starts the convolutional neural network (CNN) by introducing the co
 #### Suggested Reading
 
 * [CONV and its variants](https://arxiv.org/pdf/1603.07285.pdf)
+* [CNN explanation](https://poloclub.github.io/cnn-explainer/)
 * [Introduction for batch norm, layer norm, group norm etc.](./Normalization Techniques in Deep Neural Networks _ by Aakash Bindal _ Techspace _ Medium.pdf)
 * [Overview of NN feature normalization](https://arxiv.org/pdf/2009.12836.pdf)
 * [ImageNet Winning CNN Architectures](https://www.kaggle.com/getting-started/149448)
@@ -256,7 +259,7 @@ ___
 
 ![L9 Intro](images/lectures/L9.png)
 
-This lecture is an exciting one to introduce the attention mechanism and latest transformer based models which had demonstrated great success in natural language processing applications and showing promising the computer vision tasks. The discussion starts by introducing the self-attention and transformer module in details and extend to seq-to-seq model. The BERT and GTP-2/3 architectures are reviewed with details for training and inference. The lecture ends with reviewing application of transformer to computer vision tasks.
+This lecture is an exciting one to introduce the attention mechanism and latest transformer based models which had demonstrated great success in natural language processing applications and showing promising the computer vision tasks. The discussion starts by introducing the self-attention and transformer module in details and extend to seq-to-seq model. The BERT and GTP-2/3 architectures are reviewed with details for training and inference. This lecture ends with reviewing application of transformer to computer vision tasks.
 
 #### Video
 
@@ -270,6 +273,7 @@ This lecture is an exciting one to introduce the attention mechanism and latest 
 
 * [Attention and transformer](http://peterbloem.nl/blog/transformers)
 * [Attention is all your need](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+* [Seq model and CTC loss](https://distill.pub/2017/ctc/)
 * [GPT as a few shot learner](https://arxiv.org/abs/2005.14165)
 * [Vision transformer](https://ai.googleblog.com/2020/12/transformers-for-image-recognition-at.html)
 * [GPT playground](https://app.inferkit.com/demo)
@@ -279,7 +283,7 @@ ___
 
 ![L10 Intro](images/lectures/L10.png)
 
-So far we had discussed discriminative models which learn the decision boundary to make prediction. In this lecture, we start to discuss the generative model which learns the data distribution and allows to sample from that distribution. We start by discussing the differences and links between generative and discriminative models. Then the G/D design of generative adversarial model is introduced. The GAN loss is analyzed in detail and its optimal solution is derived. Examples are presented for the significant progress in GAN framework. We further extend the discussion to conditional GAN and CycleGAN to review its flexibility. The lecture is concluded by presenting an usecase utilizing the CycleGAN with segmentation consistency for medical imaging application.
+So far we had discussed discriminative models which learn the decision boundary to make prediction. In this lecture, we start to discuss the generative model which learns the data distribution and allows sampling from that distribution. We start by discussing the differences and links between generative and discriminative models. Then the G/D design of generative adversarial model is introduced. The GAN loss is analyzed in detail and its optimal solution is derived. Examples are presented for the significant progress in GAN framework. We further extend the discussion to conditional GAN and CycleGAN to review its flexibility. The lecture is concluded by presenting an usecase utilizing the CycleGAN with segmentation consistency for medical imaging application.
 
 #### Video
 
@@ -350,4 +354,6 @@ ___
 During this course, we learned many deep learning models and algorithms, and gained mindsets to work with DL. In this closing remark, we step back to take a bird-eye view of what we had learned. The big picture is DL is becoming an essential technology to create substantial value to the society for the decade to come. To achieve this potential, the machine learning system and effective development/deployment iteration are more important, leading to the rise of MLOps. As domain experts, adding DL to your expertise is a good way to get started. For many of us, it may be the only feasible way. So some more resources are provided for continuous learning. 
 
 #### Suggested Reading
+* [Machine Learning System Design](https://github.com/chiphuyen/machine-learning-systems-design.git)
+* [MLOps](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
 * An insightful post for future of AI society [Moore's Law for Everything](https://moores.samaltman.com)
