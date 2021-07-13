@@ -24,7 +24,8 @@ We will use [Pytorch](www.pytorch.org). So it is a good idea to get yourself fam
 Please review the mathematics for deep learning and learn basic Python and Numpy. 
 
 * [mathematics for deep learning](http://cs229.stanford.edu/summer2020/cs229-linalg.pdf)
-* [Python](https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf)
+* [Python, a more comprehensive book](https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf)
+* [Python Crash Course, one of the easiest tutorial](https://docs.google.com/a/nu.edu.pk/viewer?a=v&pid=sites&srcid=bnUuZWR1LnBrfG5vbWFuLWlzbGFtfGd4OjRkOGM4ODY3ZmQzODY3NDM)
 * [Numpy](https://cs231n.github.io/python-numpy-tutorial/)
 * [Pytorch tutorial](https://pytorch.org/tutorials/)
 * [Debug python program using VSCode](https://www.youtube.com/watch?v=W--_EOzdTHk)

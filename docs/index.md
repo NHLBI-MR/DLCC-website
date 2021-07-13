@@ -31,8 +31,9 @@ Some good materials for mathematics and python programming:
 * [Stanford CS229-linalg](http://cs229.stanford.edu/summer2020/cs229-linalg.pdf)
 * [Dive Into DL, math appendix](http://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/index.html)
 * [Learning Python](https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf)
+* [Python Crash Course, one of the easiest tutorial](https://docs.google.com/a/nu.edu.pk/viewer?a=v&pid=sites&srcid=bnUuZWR1LnBrfG5vbWFuLWlzbGFtfGd4OjRkOGM4ODY3ZmQzODY3NDM)
 * [Numpy tutorial](https://cs231n.github.io/python-numpy-tutorial/)
-* [Code and debug Python using vscode](https://code.visualstudio.com/docs/python/python-tutorial)
+* [Debug Python using vscode](https://code.visualstudio.com/docs/python/python-tutorial)
 
 These materials contain sufficient information to understand and apply deep learning. After reviewing them, you will be prepared to start this journal.
 
@@ -59,4 +60,4 @@ director of Gradient Software, Inc. He is an experienced developer in deep learn
 
 ## Course offerings
 - 📯 [NHLBI 2021](nhlbi2021.md) 
-- 🧬 [FAES 2021](faes2021.md)
+- 🧬 [BIO398.81 Practical Deep Learning, FAES 2021](faes2021.md)
