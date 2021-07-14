@@ -161,6 +161,7 @@ This lecture will finish our discussion on different optimization algorithms. We
 * [One-cycle learning rate scheduler, post](https://towardsdatascience.com/finding-good-learning-rate-and-the-one-cycle-policy-7159fe1db5d6)
 * [Hyper-parameter searching](https://arxiv.org/pdf/2003.05689.pdf)
 * [Set up training, chapter 40, 41, 42](https://d2wvfoqc9gyqzf.cloudfront.net/content/uploads/2018/09/Ng-MLY01-13.pdf)
+* [DL experiment management](./A quick guide to managing machine learning experiments _ by Shashank Prasanna _ Towards Data Science.pdf)
 
 ___
 ### **Lecture 5**
