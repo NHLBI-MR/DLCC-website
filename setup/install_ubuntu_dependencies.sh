@@ -48,12 +48,5 @@ pip3 install -U pip setuptools testresources
 DEBIAN_FRONTEND=noninteractive apt install --no-install-recommends --no-install-suggests --yes python3-tk
 
 # Rest of the Python "stuff"
-pip3 install Cython matplotlib numpy opencv_python pydicom Pillow pyxb scikit-image scikit-learn scipy sympy tk-tools junitparser pandas seaborn pynvml xsdata onnx onnxruntime six future tqdm wandb
-
-# If this is an image with CUDA...
-if [ -f /usr/local/cuda/bin/nvcc ]; then
-    echo "CUDA is found ..."
-    pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-else
-    pip3 install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-fi
+pip3 install Cython matplotlib numpy opencv_python pydicom Pillow pyxb scikit-image scikit-learn scipy sympy tk-tools junitparser pandas seaborn pynvml xsdata onnx onnxruntime six future tqdm
+pip3 install wandb

@@ -330,8 +330,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-nvidia-driver-and-cuda" class="md-nav__link">
-    Install NVIDIA driver and CUDA
+  <a href="#install-nvidia-driver" class="md-nav__link">
+    Install NVIDIA driver
   </a>
   
 </li>
@@ -339,6 +339,20 @@
         <li class="md-nav__item">
   <a href="#install-dependent-software" class="md-nav__link">
     Install dependent software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-cuda" class="md-nav__link">
+    Install cuda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-pytorch" class="md-nav__link">
+    Install pytorch
   </a>
   
 </li>
@@ -417,8 +431,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-nvidia-driver-and-cuda" class="md-nav__link">
-    Install NVIDIA driver and CUDA
+  <a href="#install-nvidia-driver" class="md-nav__link">
+    Install NVIDIA driver
   </a>
   
 </li>
@@ -426,6 +440,20 @@
         <li class="md-nav__item">
   <a href="#install-dependent-software" class="md-nav__link">
     Install dependent software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-cuda" class="md-nav__link">
+    Install cuda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-pytorch" class="md-nav__link">
+    Install pytorch
   </a>
   
 </li>
@@ -464,7 +492,7 @@
 * wandb (weights and biases) for the experiment management and hyperparameter searching
 * To remote log into the graphic desktop of Ubuntu system, X2go server and client are used
 </code></pre>
-<h2 id="install-nvidia-driver-and-cuda">Install NVIDIA driver and CUDA</h2>
+<h2 id="install-nvidia-driver">Install NVIDIA driver</h2>
 <p>First, install the nvidia driver for the GPU cards. If your GPU is already set up, you can skip this step.</p>
 <div class="highlight"><pre><span></span><code># remote old installation if any
 sudo apt-get --purge remove cuda*
@@ -480,18 +508,27 @@ sudo apt upgrade -y
 # install driver
 sudo apt-get install ubuntu-drivers-common
 # recommend to install driver version 470
-sudo ubuntu-drivers 470
+sudo ubuntu-drivers install 470
 
 # then reboot the computer
 sudo reboot now
 </code></pre></div>
-<p>Second, install cuda
+<h2 id="install-dependent-software">Install dependent software</h2>
+<p>To help with the setup, a bash file is prepared to install all dependencies, including software packages and python packages:
+<a href="../setup/install_ubuntu_dependencies.sh">install_ubuntu_dependencies.sh</a></p>
+<p>Please copy this file to your computer and run:
+<div class="highlight"><pre><span></span><code># suppose the working directory is ~/software
+cd ~/software
+wget https://deeplearningcrashcourse.org/setup/install_ubuntu_dependencies.sh
+sudo sh ./install_ubuntu_dependencies.sh
+</code></pre></div></p>
+<h2 id="install-cuda">Install cuda</h2>
 <div class="highlight"><pre><span></span><code># suppose the working folder is ~/software
 mkdir ~/software
 cd ~/software
 wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda_11.4.0_470.42.01_linux.run
 sudo sh ./cuda_11.4.0_470.42.01_linux.run
-</code></pre></div></p>
+</code></pre></div>
 <p>When installing CUDA, first select "Continue":
 <img alt="cuda_install" src="../images/setup/cuda1.png" /></p>
 <p>then type in "accept":</p>
@@ -509,14 +546,9 @@ sudo nvidia-smi -pm 1
 </code></pre></div></p>
 <p>If the GPU is up and running, you should see information like this:
 <img alt="nvidia-smi" src="../images/setup/gpu_info.png" /></p>
-<h2 id="install-dependent-software">Install dependent software</h2>
-<p>To help with the setup, a bash file is prepared to install all dependencies, including software packages and python packages:
-<a href="../setup/install_ubuntu_dependencies.sh">install_ubuntu_dependencies.sh</a></p>
-<p>Please copy this file to your computer and run:
-<div class="highlight"><pre><span></span><code># suppose the working directory is ~/software
-cd ~/software
-sudo sh ./install_ubuntu_dependencies.sh
-</code></pre></div></p>
+<h2 id="install-pytorch">Install pytorch</h2>
+<div class="highlight"><pre><span></span><code>sudo pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+</code></pre></div>
 <p>After the installation, please check pytorch is installed properly:
 <div class="highlight"><pre><span></span><code>python3 -c &quot;import torch; print(torch.__version__); print(torch.cuda.is_available())&quot;
 </code></pre></div></p>
