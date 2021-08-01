@@ -45,6 +45,34 @@ Starting on the week of Sep 13, 2021
 * Q&A session, every Friday, 10-11am, US EST time
     - Recurrent zoom link here
 
+* Project discussion, schedule will be announced in the [Slack channel]()
+
+## Course projects
+
+The course project is a great opportunity to apply deep learning to a problem of your interests. Given the very diverse background of course participants, it is of interests to see what deep learning may do in your domain. 
+
+I would encourage you to think about a few ideas about how to apply DL to a problem in your domain. To get started, try to ask questions such as:
+
+- Do I have a clear goal for what the model should do? E.g. segment a specific vessel and measure its diameter, or predict the outcome for a certain patient cohort, or improve imaging signal-noise-ratio or reduce radiation dose.
+
+- Do I have data available, or whether I can start collecting data? Maybe data is generated in your workflow, but not saved. There are also openly available datasets.
+
+- Is there a clear way to label the data? Maybe it is hard to come out a good data labelling strategy at the beginning. But can you get started and refine the data labelling after gaining more experience?
+
+- How will you design the loss function and what is a possible model architecture? For these technical questions, there may be publications using deep learning for your domain. It is a good idea to review some papers to see how others formatted the problem.
+
+- After building the model, will it be useful to improve your workflow or even become a *deployed* component? For example, a model to improve imaging SNR can be deployed and used regularly in experiments. If so, you will have a way to continuously adding new data to your dataset.
+
+You can work in a team of up to 3 people. You can consult any resources (e.g. github repo, books, papers, code by others etc.). But you are expected to collect, label/clean datasets, design and implement model, conduct the training, validating the model. In short, you are expected to **drive a deep learning project**. 
+
+The course projects consist of three stages: proposal, milestone and final report. 
+
+- **Proposal** should be no more than one page. Try to state clearly about: what is the problem you are trying to solve with DL? What dataset will you use? If you are going to collect data, what is the strategy and timeline to curate a dataset? Ideas about model design and training. Finally, you should anticipate the expected outcome.
+
+- **Milestone** should be no more than 3 pages, including: Introduction, Method, Dataset, Preliminary results and Discussion. You should clearly state the problem, technical route and possible further improvement.
+
+- **Final report** should be up to 5 pages, including, Introduction, Related work if any, Method, Dataset, Training details, Results, Model deployment if applicable, Discussion, and Conclusion. Consider this final report to be the fist draft of your deep learning paper submitted to a good journal in your domain! 
+
 ## Syllabus
 
 ### **Prologue**

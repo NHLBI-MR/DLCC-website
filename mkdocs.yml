@@ -11,6 +11,9 @@ nav:
     - 'Offerings':
       - NHLBI 2021: nhlbi2021.md
       - FAES 2021: faes2021.md
+    - 'Setup':
+      - Ubuntu: setup_ubuntu.md
+      - Windows 10: setup_win10.md
     - About: about.md
 
 theme:
