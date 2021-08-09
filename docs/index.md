@@ -31,7 +31,7 @@ Some good materials for mathematics and python programming:
 * [Stanford CS229-linalg](http://cs229.stanford.edu/summer2020/cs229-linalg.pdf)
 * [Dive Into DL, math appendix](http://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/index.html)
 * [Learning Python](https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf)
-* [Python Crash Course, one of the easiest tutorial](https://docs.google.com/a/nu.edu.pk/viewer?a=v&pid=sites&srcid=bnUuZWR1LnBrfG5vbWFuLWlzbGFtfGd4OjRkOGM4ODY3ZmQzODY3NDM)
+* [Python Crash Course, one of the easiest tutorial](https://www.programmer-books.com/wp-content/uploads/2018/06/Python%20Crash%20Course%20-%20A%20Hands-On,%20Project-Based%20Introduction%20to%20Programming.pdf)
 * [Numpy tutorial](https://cs231n.github.io/python-numpy-tutorial/)
 * [Debug Python using vscode](https://code.visualstudio.com/docs/python/python-tutorial)
 
