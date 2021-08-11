@@ -50,6 +50,7 @@ trusted-host = pypi.python.org
                files.pythonhosted.org
                raw.githubusercontent.com
                github.com
+               download.pytorch.org
 ```
 
 ## Install vscode
