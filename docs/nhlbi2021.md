@@ -25,7 +25,7 @@ Please review the mathematics for deep learning and learn basic Python and Numpy
 
 * [mathematics for deep learning](http://cs229.stanford.edu/summer2020/cs229-linalg.pdf)
 * [Python, a more comprehensive book](https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf)
-* [Python Crash Course, one of the easiest tutorial](https://docs.google.com/a/nu.edu.pk/viewer?a=v&pid=sites&srcid=bnUuZWR1LnBrfG5vbWFuLWlzbGFtfGd4OjRkOGM4ODY3ZmQzODY3NDM)
+* [Python Crash Course, one of the easiest tutorial](https://www.programmer-books.com/wp-content/uploads/2018/06/Python%20Crash%20Course%20-%20A%20Hands-On,%20Project-Based%20Introduction%20to%20Programming.pdf)
 * [Numpy](https://cs231n.github.io/python-numpy-tutorial/)
 * [Pytorch tutorial](https://pytorch.org/tutorials/)
 * [Debug python program using VSCode](https://www.youtube.com/watch?v=W--_EOzdTHk)
