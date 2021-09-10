@@ -40,12 +40,10 @@ Please review the mathematics for deep learning and learn basic Python and Numpy
 Starting on the week of Sep 13, 2021
 
 * Lecture, every Wed, 10-11:30 am, US EST time
-    - Recurrent zoom link here
+    - https://us02web.zoom.us/j/2417250866?pwd=Zm9aTmgyZjNXdGRtUitmM0RGVXZPQT09
 
 * Q&A session, every Friday, 10-11am, US EST time
-    - Recurrent zoom link here
-
-* Project discussion, schedule will be announced in the [Slack channel]()
+    - https://us02web.zoom.us/j/2417250866?pwd=Zm9aTmgyZjNXdGRtUitmM0RGVXZPQT09
 
 ## Course projects
 
@@ -80,7 +78,7 @@ The course projects consist of three stages: proposal, milestone and final repor
 ![L0 Intro](images/lectures/L0.png)
 
 **Why do we want to spend hours in learning deep learning (DL)?** 
-I can articulate one reason: Deep Learning is a set of key technique which can be applied to many different fields, from mobile phone to medical imaging, from robotics to online shopping, from new drug discovery to genomics. What is really amazing to me is that in this wave of technological revolution, the **same** set of technique, deep neural network, is solving many challenging problems which are drastically different. Yes, it is the same set of algorithms, software toolboxes and knowledge base are applied, reporting state-of-the-art performance.
+I can articulate one reason: Deep Learning is a set of key technique which can be applied to many fields, from mobile phone to medical imaging, from robotics to online shopping, from new drug discovery to genomics. What is really amazing to me is that in this wave of technological revolution, the **same** set of technique, deep neural network, is solving many challenging problems which are drastically different. Yes, it is the same set of algorithms, software toolboxes and knowledge base are applied, reporting state-of-the-art performance.
 
 This makes learning deep learning rewardable, because you will master something which can be widely applied and mostly likely will stay that way in the decades to come. According to ARK's research, deep learning will add $30 trillion to the global equity market capitalization during the next 15-20 years*. No something which should be ignored!
 
@@ -94,7 +92,7 @@ This course is to equip you with required knowledge to understand and apply DL b
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/Prologue.pdf)
 
 #### Suggested Reading
 
@@ -113,7 +111,7 @@ We start by motivating the deep learning for its broad applicability and future 
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_1.pdf)
 
 #### Suggested Reading
 
