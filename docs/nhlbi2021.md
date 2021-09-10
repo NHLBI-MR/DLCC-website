@@ -111,7 +111,7 @@ We start by motivating the deep learning for its broad applicability and future 
 
 #### Slides
 
-[PDF Download](slides/lecture_1.pdf)
+[PDF Download](slides/L1.pdf)
 
 #### Suggested Reading
 
