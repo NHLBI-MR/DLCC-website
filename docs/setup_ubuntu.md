@@ -119,7 +119,7 @@ sudo tasksel install ubuntu-mate-desktop
 sudo reboot now
 ```
 
-Second, on the windows side, download and install the [x2go client](https://code.x2go.org/releases/X2GoClient_latest_mswin32-setup.exe). 
+Second, on the *Windows* side (suppose you are using MS Windows to log into the linux computer), download and install the [x2go client](https://code.x2go.org/releases/X2GoClient_latest_mswin32-setup.exe). 
 
 Last, start the x2go client to remote into the ubuntu server:
 
