@@ -181,7 +181,7 @@ This lecture will finish our discussion on different optimization algorithms. We
 
 #### Suggested Reading
 
-* [Optimization in deep learning](https://towardsdatascience.com/optimization-algorithms-in-deep-learning-191bfc2737a4)
+* [Optimization in deep learning](https://ruder.io/optimizing-gradient-descent/)
 * [Learning rate scheduler in Pytorch](https://www.kaggle.com/isbhargav/guide-to-pytorch-learning-rate-scheduling)
 * [One-cycle learning rate scheduler](https://arxiv.org/pdf/1803.09820.pdf)
 * [One-cycle learning rate scheduler, post](https://towardsdatascience.com/finding-good-learning-rate-and-the-one-cycle-policy-7159fe1db5d6)
