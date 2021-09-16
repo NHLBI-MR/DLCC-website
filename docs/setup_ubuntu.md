@@ -46,6 +46,7 @@ Please copy this file to your computer and run:
 # suppose the working directory is ~/software
 cd ~/software
 wget https://deeplearningcrashcourse.org/setup/install_ubuntu_dependencies.sh
+dos2unix ./install_ubuntu_dependencies.sh # in case the line ending format causes problem
 sudo sh ./install_ubuntu_dependencies.sh
 ```
 
