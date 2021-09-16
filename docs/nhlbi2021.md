@@ -88,7 +88,7 @@ This course is to equip you with required knowledge to understand and apply DL b
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=-I5TjyzDLpE)
 
 #### Slides
 
@@ -107,7 +107,7 @@ We start by motivating the deep learning for its broad applicability and future 
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=lPquVtduVLs)
 
 #### Slides
 
