@@ -21,7 +21,7 @@ As an overview, following software and tools are used in this course:
 
 ## Install python and pip
 
-- Download the [python 3.8 installer](https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip)
+- Download the [python 3.8 installer](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
 - Unzip and double click
 - Use all default values and install this package
 
