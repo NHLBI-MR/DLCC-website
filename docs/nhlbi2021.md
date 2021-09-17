@@ -163,6 +163,14 @@ We will not review GPU devices for deep learning in lectures. Please review two 
 * [Autograd in Pytorch](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 * [GPU in Pytorch](https://www.run.ai/guides/gpu-deep-learning/pytorch-gpu/)
 * [GPU for deep learning](https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/)
+___
+### **Assignment 1**
+
+![A1](https://gadgetrondata.blob.core.windows.net/dlcc/dlcc_assignment1.zip)
+
+In this assignment, you will be asked to implement the multi-layer perceptron model and cross-entropy loss. The coding problem will require the implementation for both forward pass and backprop. The gradient descent is used to train the model for higher classification accuracy. We will not use deep learning framework in this assignment, but will use Python+Numpy combination. The goal is to make sure the thorough understanding of mathematics and numeric technique necessary for a classic neural network. Also, it is to encourage one to get familiar with python coding.
+
+This assignment introduces the regression test for model training and evaluation. The [Pytest](https://docs.pytest.org/en/6.2.x/) is used for the regression test purpose.
 
 ___
 ### **Lecture 4**
