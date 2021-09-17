@@ -172,6 +172,7 @@ In this assignment, you will be asked to implement the multi-layer perceptron mo
 
 This assignment introduces the regression test for model training and evaluation. The [Pytest](https://docs.pytest.org/en/6.2.x/) is used for the regression test purpose.
 
+[Download the linear regression demo](slides/linear_regression.py)
 ___
 ### **Lecture 4**
 
