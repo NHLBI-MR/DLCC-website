@@ -132,7 +132,7 @@ This lecture introduces the concept of loss function to evaluate how well our mo
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_2.pdf)
 
 #### Suggested Reading
 
