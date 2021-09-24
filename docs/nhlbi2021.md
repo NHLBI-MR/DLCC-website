@@ -173,6 +173,13 @@ In this assignment, you will be asked to implement the multi-layer perceptron mo
 This assignment introduces the regression test for model training and evaluation. The [Pytest](https://docs.pytest.org/en/6.2.x/) is used for the regression test purpose.
 
 [Download the linear regression demo](slides/linear_regression.py)
+
+### **Note 1**
+
+[Download the Note 1](slides/Derivative_of_CE_Loss.pdf)
+
+In this note, the derivative of CE loss to the score vector is derived, step by step, including taking the gradient through the softmax function. This is an important step to understand the math behind MLP and classification loss.
+
 ___
 ### **Lecture 4**
 

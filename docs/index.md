@@ -50,14 +50,6 @@ transfer learning, meta learning, contrastive learning, data management, experim
 ---
 <br>
 
-
-<img align="left" width="240" height="240" src="images/david.png">
-<br>[David Hansen](https://www.linkedin.com/in/david-hansen-4b86a535/) is the founder and technical
-director of Gradient Software, Inc. He is an experienced developer in deep learning.
----
-<br>
-<br>
-
 ## Course offerings
 - 📯 [NHLBI 2021](nhlbi2021.md) 
 - 🧬 [BIO398.81 Practical Deep Learning, FAES 2021](faes2021.md)
