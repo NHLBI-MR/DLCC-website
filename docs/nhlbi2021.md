@@ -228,6 +228,13 @@ This lecture continues our discussion on training setup, with focus on handling 
 * [Checklist to debug NN](https://towardsdatascience.com/checklist-for-debugging-neural-networks-d8b2a9434f21)
 
 ___
+### **Assignment 2**
+
+[Download the Assignment 2](https://gadgetrondata.blob.core.windows.net/dlcc/assignment2.zip)
+
+In this assignment, you will study the autodiff in Pytorch, which is essential to understand how DL models work. Then you will implement a MLP model using Pytorch on the Cifar10 dataset. Another important aspects in this assignment is the experimental management, using the [wandb](https://wandb.ai/site).
+
+___
 ### **Lecture 6**
 
 ![L6 Intro](images/lectures/L6.png)
