@@ -408,3 +408,10 @@ During this course, we learned many deep learning models and algorithms, and gai
 * [Machine Learning System Design](https://github.com/chiphuyen/machine-learning-systems-design.git)
 * [MLOps](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
 * An insightful post for future of AI society [Moore's Law for Everything](https://moores.samaltman.com)
+
+___
+### **Review sessions**
+
+[Session 1](https://www.youtube.com/watch?v=SCQGXAVuTTg&t=3s)
+
+[Session 3](https://www.youtube.com/watch?v=KaqBM6HkqU0)
