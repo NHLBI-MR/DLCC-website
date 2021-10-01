@@ -150,7 +150,7 @@ We will not review GPU devices for deep learning in lectures. Please review two 
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=JGTbGpGcZGg)
 
 #### Slides
 
