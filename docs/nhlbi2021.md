@@ -189,7 +189,7 @@ This lecture will finish our discussion on different optimization algorithms. We
 
 #### Video
 
-[To be added]()
+[Click here](https://youtu.be/M5e3nK5XJaw)
 
 #### Slides
 
