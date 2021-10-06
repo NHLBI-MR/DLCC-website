@@ -193,7 +193,7 @@ This lecture will finish our discussion on different optimization algorithms. We
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_4.pdf)
 
 #### Suggested Reading
 
