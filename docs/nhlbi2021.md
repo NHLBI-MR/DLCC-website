@@ -218,7 +218,7 @@ This lecture continues our discussion on training setup, with focus on handling 
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_5.pdf)
 
 #### Suggested Reading
 
