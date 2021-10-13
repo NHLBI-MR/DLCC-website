@@ -214,7 +214,7 @@ This lecture continues our discussion on training setup, with focus on handling 
 
 #### Video
 
-[To be added]()
+[Click here](https://youtu.be/Lx-nWZmdP6Q)
 
 #### Slides
 
