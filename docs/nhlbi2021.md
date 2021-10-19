@@ -247,7 +247,7 @@ This lecture starts the convolutional neural network (CNN) by introducing the co
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_6.pdf)
 
 #### Suggested Reading
 
