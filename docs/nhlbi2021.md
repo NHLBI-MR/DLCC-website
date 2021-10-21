@@ -243,7 +243,7 @@ This lecture starts the convolutional neural network (CNN) by introducing the co
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=a0OOoFdo01Y)
 
 #### Slides
 
@@ -283,6 +283,13 @@ Network compression is not discussed in the lecture. But you are encouraged to r
 * [One-stage object detector](https://www.jeremyjordan.me/object-detection-one-stage/)
 * [ResUnet](https://arxiv.org/pdf/1711.10684.pdf)
 * [Intro for network compression](https://towardsdatascience.com/how-to-compress-a-neural-network-427e8dddcc34)
+
+___
+### **Assignment 3**
+
+[Download the Assignment 3](https://gadgetrondata.blob.core.windows.net/dlcc/assignments3.zip)
+
+In this assignment, you will practice to build CNN models. Two new datasets are introduced, cifar10 and carvana datasets. You will build classficiation CNN models on cifar10 datasets and build a segmentatin U-net model on carvana datasets. This is an important assignment. Please give a try!
 
 ___
 ### **Lecture 8**
