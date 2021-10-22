@@ -424,3 +424,5 @@ ___
 [Session 3](https://www.youtube.com/watch?v=KaqBM6HkqU0)
 
 [Pytorch tutorial](https://gadgetrondata.blob.core.windows.net/dlcc/tutorial.tar.gz)
+
+[Session 4](https://www.youtube.com/watch?v=-gHeUi6-7-8)
