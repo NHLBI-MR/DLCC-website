@@ -272,7 +272,7 @@ Network compression is not discussed in the lecture. But you are encouraged to r
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_7.pdf)
 
 #### Suggested Reading
 
