@@ -268,7 +268,7 @@ Network compression is not discussed in the lecture. But you are encouraged to r
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=oSPTU1yjLUo&t=3s)
 
 #### Slides
 
