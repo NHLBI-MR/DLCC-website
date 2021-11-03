@@ -304,7 +304,7 @@ We start the discussion of recurrent neural network (RNN) in this lecture. The v
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_8.pdf)
 
 #### Suggested Reading
 
