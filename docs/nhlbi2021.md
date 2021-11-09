@@ -325,7 +325,7 @@ This lecture is an exciting one to introduce the attention mechanism and latest 
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_9.pdf)
 
 #### Suggested Reading
 
