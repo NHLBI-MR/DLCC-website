@@ -321,7 +321,7 @@ This lecture is an exciting one to introduce the attention mechanism and latest 
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=ei9OJmz6d94)
 
 #### Slides
 
