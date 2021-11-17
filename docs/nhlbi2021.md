@@ -349,7 +349,7 @@ So far we had discussed discriminative models which learn the decision boundary 
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_10.pdf)
 
 #### Suggested Reading
 
