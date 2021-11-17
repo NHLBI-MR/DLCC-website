@@ -174,6 +174,9 @@ This assignment introduces the regression test for model training and evaluation
 
 [Download the linear regression demo](slides/linear_regression.py)
 
+Drs. Eric Leifer and James Troendle from the NHLBI drafted this excellent notes about the derivation of loss gradient. Please review.
+[Download the notes for gradient derivation](2021-11-15_gradient_matrices_Assignment_1.pdf)
+
 ### **Note 1**
 
 [Download the Note 1](slides/Derivative_of_CE_Loss.pdf)
