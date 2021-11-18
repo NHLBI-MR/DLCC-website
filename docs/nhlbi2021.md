@@ -348,7 +348,7 @@ So far we had discussed discriminative models which learn the decision boundary 
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=YKFxiOfOhI0)
 
 #### Slides
 
