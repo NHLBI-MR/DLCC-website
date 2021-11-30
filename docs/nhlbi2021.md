@@ -374,7 +374,7 @@ This lecture discusses two related topics in deep learning: adversarial examples
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_11.pdf)
 
 #### Suggested Reading
 
@@ -431,3 +431,13 @@ ___
 [Session 4](https://www.youtube.com/watch?v=-gHeUi6-7-8)
 
 [Session 5](https://www.youtube.com/watch?v=TPytET7f7Y8)
+
+___
+### **Guest Lecture**
+
+![Guest Lecture](images/GuestLecture_Sarah.png)
+
+#### Video
+
+[Click here](https://www.youtube.com/watch?v=Pw1DsTS04rA)
+
