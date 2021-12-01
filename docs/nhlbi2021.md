@@ -370,7 +370,7 @@ This lecture discusses two related topics in deep learning: adversarial examples
 
 #### Video
 
-[To be added]()
+[Click here](https://www.youtube.com/watch?v=icIUrP9C_QQ)
 
 #### Slides
 
