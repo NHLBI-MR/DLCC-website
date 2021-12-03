@@ -432,6 +432,7 @@ ___
 
 [Session 5](https://www.youtube.com/watch?v=TPytET7f7Y8)
 
+[Session 6](https://www.youtube.com/watch?v=eXkn0PvZKrs)
 ___
 ### **Guest Lecture**
 
