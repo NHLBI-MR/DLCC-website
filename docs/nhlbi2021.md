@@ -396,7 +396,7 @@ Deep learning works great if we have large amount of clean, diverse and labelled
 
 #### Slides
 
-[PDF Download]()
+[PDF Download](slides/lecture_12.pdf)
 
 #### Suggested Reading
 
@@ -413,6 +413,14 @@ ___
 ![L13 Intro](images/lectures/closing_remarks.png)
 
 During this course, we learned many deep learning models and algorithms, and gained mindsets to work with DL. In this closing remark, we step back to take a bird-eye view of what we had learned. The big picture is DL is becoming an essential technology to create substantial value to the society for the decade to come. To achieve this potential, the machine learning system and effective development/deployment iteration are more important, leading to the rise of MLOps. As domain experts, adding DL to your expertise is a good way to get started. For many of us, it may be the only feasible way. So some more resources are provided for continuous learning. 
+
+#### Video
+
+[To be added]()
+
+#### Slides
+
+[PDF Download](slides/ClosingRemarks.pdf)
 
 #### Suggested Reading
 * [Machine Learning System Design](https://github.com/chiphuyen/machine-learning-systems-design.git)
