@@ -392,7 +392,7 @@ Deep learning works great if we have large amount of clean, diverse and labelled
 
 #### Video
 
-[To be added]()
+[Click here](https://youtu.be/wMcM43jczsc)
 
 #### Slides
 
@@ -416,7 +416,7 @@ During this course, we learned many deep learning models and algorithms, and gai
 
 #### Video
 
-[To be added]()
+[Click here](https://youtu.be/zQsyKuRARGI)
 
 #### Slides
 
