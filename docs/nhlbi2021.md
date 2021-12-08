@@ -33,7 +33,6 @@ Please review the mathematics for deep learning and learn basic Python and Numpy
 ## Instructors
 
 * Hui Xue, hui.xue@nih.gov
-* David Hansen, davidchansen@gradientsoftware.net
 
 ## Schedule
 
