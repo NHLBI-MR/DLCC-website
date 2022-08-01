@@ -53,3 +53,4 @@ transfer learning, meta learning, contrastive learning, data management, experim
 ## Course offerings
 - 📯 [NHLBI 2021](nhlbi2021.md) 
 - 🧬 [BIO398.81 Practical Deep Learning, FAES 2021](faes2021.md)
+- 🎺 [NHLBI 2022](nhlbi2022.md) 
