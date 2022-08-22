@@ -15,6 +15,7 @@ nav:
     - 'Setup':
       - Ubuntu: setup_ubuntu.md
       - Windows 10: setup_win10.md
+      - NHLBI: setup_nhlbi.md
     - About: about.md
 
 theme:
