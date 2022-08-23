@@ -102,3 +102,13 @@ After this, you can start debug/code up the assignment source files:
 
 ![A1](images/nhlbi/code_run.jpg)
 
+## Pytorch with GPU
+
+By default, the cpu version of pytorch was installed. If you have gpu setup, you may want to uninstall cpu version and install GPU pytorch:
+
+```
+# in the dlcc_env
+pip uninstall torch torchvision torchaudio
+# install gpu version
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+```
