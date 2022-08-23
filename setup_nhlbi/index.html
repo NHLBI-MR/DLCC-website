@@ -435,6 +435,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pytorch-with-gpu" class="md-nav__link">
+    Pytorch with GPU
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -532,6 +539,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pytorch-with-gpu" class="md-nav__link">
+    Pytorch with GPU
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -623,6 +637,13 @@ python -m venv dlcc_env
 <p><img alt="A1" src="../images/nhlbi/code_select.jpg" /></p>
 <p>After this, you can start debug/code up the assignment source files:</p>
 <p><img alt="A1" src="../images/nhlbi/code_run.jpg" /></p>
+<h2 id="pytorch-with-gpu">Pytorch with GPU</h2>
+<p>By default, the cpu version of pytorch was installed. If you have gpu setup, you may want to uninstall cpu version and install GPU pytorch:</p>
+<div class="highlight"><pre><span></span><code># in the dlcc_env
+pip uninstall torch torchvision torchaudio
+# install gpu version
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+</code></pre></div>
                 
               
               
