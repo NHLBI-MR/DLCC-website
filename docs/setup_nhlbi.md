@@ -8,7 +8,7 @@ This guideline provides tutorial for how to set up deep learning development env
 
 - Download the [CUDA installer](https://developer.download.nvidia.com/compute/cuda/11.6.2/local_installers/cuda_11.6.2_511.65_windows.exe) for windows
 
-- Double click cuda_11.6.2_511.65_windows.ex
+- Double click cuda_11.6.2_511.65_windows.exe
 
 - Follow on-screen prompts
 
