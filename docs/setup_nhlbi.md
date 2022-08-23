@@ -2,63 +2,103 @@
 ___
 # Setup for deep learning development, NHLBI
 
-This guideline provides tutorial for how to set up deep learning development environment for the NHLBI internal setup. Due to the limitation of NIH network, user has to use their PIV cards to log into the linux server computers and set up their virtual environment. GPUs will be avaiable on the linux servers.
+This guideline provides tutorial for how to set up deep learning development environment for the NHLBI internal setup. Due to the limitation of NIH network, we will focus on setting up the NHLBI windows computers.
 
-The linux server used for the course is:
+## Install NVIDIA driver and CUDA, if your computer has a GPU
 
-    lce-u02213965.nhlbi.nih.gov
+- Download the [CUDA installer](https://developer.download.nvidia.com/compute/cuda/11.6.2/local_installers/cuda_11.6.2_511.65_windows.exe) for windows
 
-## Install the putty-cac
+- Double click cuda_11.6.2_511.65_windows.ex
 
-First, please download and install putty-cac:
+- Follow on-screen prompts
 
-https://github.com/NoMoreFood/putty-cac/raw/0.77/binaries/puttycac-64bit-0.77-installer.msi
+## Install python and pip
 
-To use the putty-cac to log into the linux server, you need to have the PIV card and set up putty and pageant. The instruction is at:
+- Download the [python 3.8 installer](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
+- Unzip and double click
+- Use all default values and install this package
 
-https://playbooks.idmanagement.gov/piv/engineer/ssh/
-
-## Log in with graphic interface
-
-Second, on the *Windows* side (suppose you are using MS Windows to log into the linux computer), download and install the [x2go client](https://code.x2go.org/releases/X2GoClient_latest_mswin32-setup.exe). 
-
-Last, start the x2go client to remote into the ubuntu server:
-
-- set up the x2go connection as this:
-
-![x2go](images/nhlbi/x2go_1.jpg)
-
-make sure put in the ip in this "Host" and select **MATE** in the "Session type".
-
-- After clicking **OK**, the session should be saved:
-
-![x2go](images/nhlbi/x2go_2.jpg)
-
-- Click this session You now log into the ubuntu remote serve with mate desktop:
-
-![x2go](images/nhlbi/x2go_3.jpg)
-
-## Set up python environment
-
-To help with the setup, we will use python virtual environment. You can read more about python virtual environment [here](https://realpython.com/python-virtual-environments-a-primer/):
+## Install python pip
 
 ```
-# set up your environment
-cd ~
-python3 -m venv mydlcc2022
-
-# then, activate the environment
-source ~/mydlcc2022/bin/activate
-
-# then, you can install dependent software
-wget https://deeplearningcrashcourse.org/setup/requirements.txt
-pip3 install -r ~/requirements.txt
-
-# then, install pytorch
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+cd c:\temp
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
 ```
 
-Remember to activate your virtual environment everytime you log in to the computer:
+If you get this error:
+
+![error](images/setup/pip_error.png)
+
+it can be fixed by:
+
+- Go to windows run. Type %appdata%
+- Go to the folder pip and edit the pip.ini file.
+- If the folder doesn't exist create one and also create a pip.ini file and edit in a text editor.
+- Add the following :
 ```
-source ~/mydlcc2022/bin/activate
+[global]
+trusted-host = pypi.python.org
+               pypi.org
+               files.pythonhosted.org
+               raw.githubusercontent.com
+               github.com
+               download.pytorch.org
 ```
+
+## Install vscode
+
+Go to [VSCode page](https://code.visualstudio.com/download#) and download and install this software for windows 64 bit.
+
+## Create python virtual environment
+
+First, open the windows power-shell
+
+![win_ps](images/nhlbi/win_ps.jpg)
+
+Then, create python virtual environment:
+
+```
+cd c:\temp
+python -m venv dlcc_env
+```
+
+Activate the dlcc_env. In the power-shell, run:
+
+```
+ .\dlcc_env\Scripts\activate
+```
+
+Install the required packages:
+
+- Download https://deeplearningcrashcourse.org/setup/requirements.txt and save it into c:\temp\requirements.txt
+
+```
+pip install -r .\requirements.txt
+```
+
+## Use vscode in the virtual environment
+
+Download the assignment 1 from:
+
+https://gadgetrondata.blob.core.windows.net/dlcc/assignment1.zip
+
+Save it into e.g. c:\temp\A1 and unzip the package
+
+Then use the vscode to open the assignment 1:
+
+```
+code .\A1\assignment1\ 
+```
+![A1](images/nhlbi/code_a1.jpg)
+
+One extra step we need to do is to let vscode use the virtual environment:
+
+Click "View", then "Command and Palette", then type "Python: Select Interpreter", then select the one for dlcc_env (last one in the list here):
+
+![A1](images/nhlbi/code_select.jpg)
+
+After this, you can start debug/code up the assignment source files:
+
+![A1](images/nhlbi/code_run.jpg)
+
