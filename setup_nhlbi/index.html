@@ -394,22 +394,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-the-putty-cac" class="md-nav__link">
-    Install the putty-cac
+  <a href="#install-nvidia-driver-and-cuda-if-your-computer-has-a-gpu" class="md-nav__link">
+    Install NVIDIA driver and CUDA, if your computer has a GPU
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#log-in-with-graphic-interface" class="md-nav__link">
-    Log in with graphic interface
+  <a href="#install-python-and-pip" class="md-nav__link">
+    Install python and pip
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#set-up-python-environment" class="md-nav__link">
-    Set up python environment
+  <a href="#install-python-pip" class="md-nav__link">
+    Install python pip
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-vscode" class="md-nav__link">
+    Install vscode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-python-virtual-environment" class="md-nav__link">
+    Create python virtual environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-vscode-in-the-virtual-environment" class="md-nav__link">
+    Use vscode in the virtual environment
   </a>
   
 </li>
@@ -470,22 +491,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-the-putty-cac" class="md-nav__link">
-    Install the putty-cac
+  <a href="#install-nvidia-driver-and-cuda-if-your-computer-has-a-gpu" class="md-nav__link">
+    Install NVIDIA driver and CUDA, if your computer has a GPU
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#log-in-with-graphic-interface" class="md-nav__link">
-    Log in with graphic interface
+  <a href="#install-python-and-pip" class="md-nav__link">
+    Install python and pip
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#set-up-python-environment" class="md-nav__link">
-    Set up python environment
+  <a href="#install-python-pip" class="md-nav__link">
+    Install python pip
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-vscode" class="md-nav__link">
+    Install vscode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-python-virtual-environment" class="md-nav__link">
+    Create python virtual environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-vscode-in-the-virtual-environment" class="md-nav__link">
+    Use vscode in the virtual environment
   </a>
   
 </li>
@@ -509,50 +551,78 @@
                 
                 <hr />
 <h1 id="setup-for-deep-learning-development-nhlbi">Setup for deep learning development, NHLBI</h1>
-<p>This guideline provides tutorial for how to set up deep learning development environment for the NHLBI internal setup. Due to the limitation of NIH network, user has to use their PIV cards to log into the linux server computers and set up their virtual environment. GPUs will be avaiable on the linux servers.</p>
-<p>The linux server used for the course is:</p>
-<pre><code>lce-u02213965.nhlbi.nih.gov
-</code></pre>
-<h2 id="install-the-putty-cac">Install the putty-cac</h2>
-<p>First, please download and install putty-cac:</p>
-<p>https://github.com/NoMoreFood/putty-cac/raw/0.77/binaries/puttycac-64bit-0.77-installer.msi</p>
-<p>To use the putty-cac to log into the linux server, you need to have the PIV card and set up putty and pageant. The instruction is at:</p>
-<p>https://playbooks.idmanagement.gov/piv/engineer/ssh/</p>
-<h2 id="log-in-with-graphic-interface">Log in with graphic interface</h2>
-<p>Second, on the <em>Windows</em> side (suppose you are using MS Windows to log into the linux computer), download and install the <a href="https://code.x2go.org/releases/X2GoClient_latest_mswin32-setup.exe">x2go client</a>. </p>
-<p>Last, start the x2go client to remote into the ubuntu server:</p>
+<p>This guideline provides tutorial for how to set up deep learning development environment for the NHLBI internal setup. Due to the limitation of NIH network, we will focus on setting up the NHLBI windows computers.</p>
+<h2 id="install-nvidia-driver-and-cuda-if-your-computer-has-a-gpu">Install NVIDIA driver and CUDA, if your computer has a GPU</h2>
 <ul>
-<li>set up the x2go connection as this:</li>
+<li>
+<p>Download the <a href="https://developer.download.nvidia.com/compute/cuda/11.6.2/local_installers/cuda_11.6.2_511.65_windows.exe">CUDA installer</a> for windows</p>
+</li>
+<li>
+<p>Double click cuda_11.6.2_511.65_windows.ex</p>
+</li>
+<li>
+<p>Follow on-screen prompts</p>
+</li>
 </ul>
-<p><img alt="x2go" src="../images/nhlbi/x2go_1.jpg" /></p>
-<p>make sure put in the ip in this "Host" and select <strong>MATE</strong> in the "Session type".</p>
+<h2 id="install-python-and-pip">Install python and pip</h2>
 <ul>
-<li>After clicking <strong>OK</strong>, the session should be saved:</li>
+<li>Download the <a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe">python 3.8 installer</a></li>
+<li>Unzip and double click</li>
+<li>Use all default values and install this package</li>
 </ul>
-<p><img alt="x2go" src="../images/nhlbi/x2go_2.jpg" /></p>
-<ul>
-<li>Click this session You now log into the ubuntu remote serve with mate desktop:</li>
-</ul>
-<p><img alt="x2go" src="../images/nhlbi/x2go_3.jpg" /></p>
-<h2 id="set-up-python-environment">Set up python environment</h2>
-<p>To help with the setup, we will use python virtual environment. You can read more about python virtual environment <a href="https://realpython.com/python-virtual-environments-a-primer/">here</a>:</p>
-<div class="highlight"><pre><span></span><code># set up your environment
-cd ~
-python3 -m venv mydlcc2022
-
-# then, activate the environment
-source ~/mydlcc2022/bin/activate
-
-# then, you can install dependent software
-wget https://deeplearningcrashcourse.org/setup/requirements.txt
-pip3 install -r ~/requirements.txt
-
-# then, install pytorch
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+<h2 id="install-python-pip">Install python pip</h2>
+<div class="highlight"><pre><span></span><code>cd c:\temp
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
 </code></pre></div>
-<p>Remember to activate your virtual environment everytime you log in to the computer:
-<div class="highlight"><pre><span></span><code>source ~/mydlcc2022/bin/activate
-</code></pre></div></p>
+<p>If you get this error:</p>
+<p><img alt="error" src="../images/setup/pip_error.png" /></p>
+<p>it can be fixed by:</p>
+<ul>
+<li>Go to windows run. Type %appdata%</li>
+<li>Go to the folder pip and edit the pip.ini file.</li>
+<li>If the folder doesn't exist create one and also create a pip.ini file and edit in a text editor.</li>
+<li>Add the following :
+<div class="highlight"><pre><span></span><code>[global]
+trusted-host = pypi.python.org
+               pypi.org
+               files.pythonhosted.org
+               raw.githubusercontent.com
+               github.com
+               download.pytorch.org
+</code></pre></div></li>
+</ul>
+<h2 id="install-vscode">Install vscode</h2>
+<p>Go to <a href="https://code.visualstudio.com/download#">VSCode page</a> and download and install this software for windows 64 bit.</p>
+<h2 id="create-python-virtual-environment">Create python virtual environment</h2>
+<p>First, open the windows power-shell</p>
+<p><img alt="win_ps" src="../images/nhlbi/win_ps.jpg" /></p>
+<p>Then, create python virtual environment:</p>
+<div class="highlight"><pre><span></span><code>cd c:\temp
+python -m venv dlcc_env
+</code></pre></div>
+<p>Activate the dlcc_env. In the power-shell, run:</p>
+<div class="highlight"><pre><span></span><code> .\dlcc_env\Scripts\activate
+</code></pre></div>
+<p>Install the required packages:</p>
+<ul>
+<li>Download https://deeplearningcrashcourse.org/setup/requirements.txt and save it into c:\temp\requirements.txt</li>
+</ul>
+<div class="highlight"><pre><span></span><code>pip install -r .\requirements.txt
+</code></pre></div>
+<h2 id="use-vscode-in-the-virtual-environment">Use vscode in the virtual environment</h2>
+<p>Download the assignment 1 from:</p>
+<p>https://gadgetrondata.blob.core.windows.net/dlcc/assignment1.zip</p>
+<p>Save it into e.g. c:\temp\A1 and unzip the package</p>
+<p>Then use the vscode to open the assignment 1:</p>
+<p><div class="highlight"><pre><span></span><code>code .\A1\assignment1\ 
+</code></pre></div>
+<img alt="A1" src="../images/nhlbi/code_a1.jpg" /></p>
+<p>One extra step we need to do is to let vscode use the virtual environment:</p>
+<p>Click "View", then "Command and Palette", then type "Python: Select Interpreter", then select the one for dlcc_env (last one in the list here):</p>
+<p><img alt="A1" src="../images/nhlbi/code_select.jpg" /></p>
+<p>After this, you can start debug/code up the assignment source files:</p>
+<p><img alt="A1" src="../images/nhlbi/code_run.jpg" /></p>
                 
               
               
