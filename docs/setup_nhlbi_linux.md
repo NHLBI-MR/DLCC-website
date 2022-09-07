@@ -8,6 +8,10 @@ The linux server used for the course is:
 
     lce-u02213965.nhlbi.nih.gov
 
+## Register your ssh key
+
+ https://authinternal.nih.gov/sshkeyregistration
+
 ## Install the putty-cac
 
 First, please download and install putty-cac:
