@@ -103,6 +103,7 @@ The same three authors wrote these two papers at the beginning of DL revolution 
 
 * [Deep learning, Nature volume 521, 436–444 (2015)](https://www.nature.com/articles/nature14539.pdf)
 * [Deep learning for all](https://dl.acm.org/doi/pdf/10.1145/3448250)
+* [Multilayer perception, MLP](http://deeplearning.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
 ___
 ### **Lecture 2**
 
