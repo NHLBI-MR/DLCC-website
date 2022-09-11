@@ -81,6 +81,7 @@ This course is to equip you with required knowledge to understand and apply DL b
 #### Video
 
 #### Slides
+[PDF Download](slides/2022/Prologue.pdf)
 
 #### Suggested Reading
 
@@ -96,6 +97,7 @@ We start by motivating the deep learning for its broad applicability and future 
 #### Video
 
 #### Slides
+[PDF Download](slides/2022/lecture_1.pdf)
 
 #### Suggested Reading
 
