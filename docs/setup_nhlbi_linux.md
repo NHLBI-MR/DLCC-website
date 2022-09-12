@@ -60,6 +60,9 @@ pip3 install -r ~/requirements_linux.txt
 
 # then, to use wandb for experiment management, we have to set up the virtual environment once
 cat /etc/pki/NIH/NIH-DPKI-ROOT-1A.pem   >> $(python3 -c "import certifi; print(certifi.where());")
+
+# then, install pytorch
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
 Remember to activate your virtual environment everytime you log in to the computer:
