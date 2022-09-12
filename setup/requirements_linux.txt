@@ -32,9 +32,6 @@ shortuuid==1.0.9
 six==1.16.0
 smmap==5.0.0
 tomli==2.0.1
-torch==1.12.1+cu116
-torchaudio==0.12.1+cu116
-torchvision==0.13.1+cu116
 tqdm==4.64.1
 typing-extensions==4.3.0
 urllib3==1.26.11
