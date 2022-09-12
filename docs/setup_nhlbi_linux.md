@@ -58,8 +58,8 @@ source ~/mydlcc2022/bin/activate
 wget https://deeplearningcrashcourse.org/setup/requirements_linux.txt
 pip3 install -r ~/requirements_linux.txt
 
-# then, install pytorch
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+# then, to use wandb for experiment management, we have to set up the virtual environment once
+cat /etc/pki/NIH/NIH-DPKI-ROOT-1A.pem   >> $(python3 -c "import certifi; print(certifi.where());")
 ```
 
 Remember to activate your virtual environment everytime you log in to the computer:
