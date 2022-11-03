@@ -9,6 +9,7 @@ site_author: Hui Xue
 nav:
     - Home: index.md
     - 'Offerings':
+      - NHLBI 2021: nhlbi2021.md
       - NHLBI 2022: nhlbi2022.md
     - 'Setup':
       - Ubuntu: setup_ubuntu.md
